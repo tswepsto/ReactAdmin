@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  "include": ["src", "src/pages/Dashboard.tsx", "src/pages/posts.tsx", "src/pages/users.tsx", "src/pages/PostCreate.tsx", "src/components/MyUrlField.tsx", "src/components/authProvider.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
